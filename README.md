@@ -92,3 +92,14 @@ dir /a
 ```
 
 Kalau di situ gak muncul .git, berarti fix udah bersih 🔥
+
+---
+
+# Solusi 3: Periksa background-attachment: fixed
+Pastikan benar-benar sudah dihapus dari _hero.blade.php. Buka file dan cari background-attachment:
+
+```bash 
+# Di terminal Laravel, cari semua file yang mengandung background-attachment
+grep -r "background-attachment" resources/views/
+```
+Jika masih ada, hapus semua background-attachment: fixed;

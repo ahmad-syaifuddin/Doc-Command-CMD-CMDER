@@ -83,3 +83,12 @@ Misal: copy file tertentu.
 Atau patch via commit tertentu (kalau kamu masih punya akses ke repo lama).
 
 Kalau kamu mau SIDESA Pro bersifat “private”, atur repo GitHub-nya ke private.
+
+
+### Kalau kamu mau aku bantu cek apakah folder .git beneran gak ada, jalankan ini:
+
+```bash
+dir /a
+```
+
+Kalau di situ gak muncul .git, berarti fix udah bersih 🔥

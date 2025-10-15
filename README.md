@@ -422,6 +422,8 @@ code -r .                     # Buka di window VSCode yang sudah ada
 # Buka dengan editor lain
 notepad++ nama_file.php       # Notepad++ (jika installed)
 sublime_text .                # Sublime Text (jika installed)
+atau
+subl .
 
 # Install dependencies dengan cepat
 composer install              # Install PHP dependencies
